@@ -20,20 +20,20 @@ function Skills() {
         <div className="skills-grid">
             <section className="skill-group">
                 <h2>Languages</h2>
-                <p>Java · C# · Python · SQL · JavaScript</p>
+                <p>Java · C# · Python · SQL · JavaScript · TypeScript</p>
             </section>
 
             <section className="skill-group">
                 <h2>Backend & Frameworks</h2>
                 <p>
-                    Spring Boot · ASP.NET MVC · .NET Framework · Entity Framework · REST APIs
+                Spring Boot · ASP.NET MVC · .NET Framework · Entity Framework 6 · REST APIs
                 </p>
             </section>
 
             <section className="skill-group">
                 <h2>Databases & Data</h2>
                 <p>
-                    PostgreSQL · SQL Server · Relational Data Modeling · JPA
+                PostgreSQL · SQL Server · Oracle · Relational Data Modeling · JPA
                 </p>
             </section>
 
@@ -53,15 +53,15 @@ function Skills() {
             <section className="skill-group">
                 <h2>Testing & Quality</h2>
                 <p>
-                    Unit Testing · Integration Testing · Validation · Debugging · Code Review
+                JUnit · Jest · React Testing Library · Playwright · Selenium · Unit Testing ·
+                Integration Testing · SpotBugs · PMD · Checkstyle · OWASP Dependency-Check
                 </p>
             </section>
 
             <section className="skill-group">
                 <h2>DevOps & Tools</h2>
                 <p>
-                    Git · GitHub · GitHub Actions · CI/CD · Docker · Kubernetes · Maven ·
-                    npm · Postman
+                Git · GitHub · Azure DevOps · GitHub Actions · CI/CD · Docker · Maven · npm
                 </p>
             </section>
         </div>
