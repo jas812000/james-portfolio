@@ -159,7 +159,6 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem 2rem;
-
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
@@ -230,7 +229,6 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem 6rem;
-
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
@@ -269,8 +267,78 @@
   text-decoration: underline;
 }
 
+/* Resume */
+
+.resume-page .section-content {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.resume-experience .section-content,
+.resume-background .section-content,
+.resume-education .section-content {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.resume-entry {
+  margin-bottom: 2rem;
+}
+
+.resume-entry:last-child {
+  margin-bottom: 0;
+}
+
+.resume-entry h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.35rem;
+  line-height: 1.3;
+}
+
+.resume-entry h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.resume-entry p {
+  margin: 0.35rem 0;
+  line-height: 1.6;
+}
+
+.resume-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.resume-actions a {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border: 2px solid;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.resume-actions a:first-child {
+  background-color: var(--accent);
+  border-color: var(--accent);
+  color: #ffffff;
+}
+
+.resume-actions a:last-child {
+  background-color: #ffffff;
+  border-color: #111827;
+  color: #111827;
+}
+
 @media (max-width: 768px) {
   .skills-grid {
     grid-template-columns: 1fr;
+  }
+
+  .resume-actions {
+    flex-wrap: wrap;
   }
 }
