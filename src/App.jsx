@@ -4,6 +4,7 @@ import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import Projects from './pages/Projects.jsx'
 import Skills from './pages/Skills.jsx'
+import Resume from './pages/Resume.jsx'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/skills" element={<Skills />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       <footer className="site-footer">
         <div className="footer-content">
