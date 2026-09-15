@@ -34,6 +34,11 @@
   font-weight: 500;
 }
 
+.nav-links a.active {
+  color: var(--accent);
+  font-weight: 700;
+}
+
 .hero-section {
   max-width: 1200px;
   margin: 0 auto;
