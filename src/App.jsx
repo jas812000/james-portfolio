@@ -2,6 +2,7 @@ import './App.css'
 import { Routes, Route, NavLink } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
+import Projects from './pages/Projects.jsx'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
       <footer className="site-footer">
         <div className="footer-content">

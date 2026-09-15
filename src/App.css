@@ -207,3 +207,46 @@
 .footer-content p {
   margin: 0;
 }
+
+.projects-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem 6rem;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.project-detail {
+  border: 1px solid #d1d5db;
+  padding: 2rem;
+  min-height: auto;
+}
+
+.project-detail .section-content {
+  max-width: none;
+  min-height: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.project-detail h2 {
+  margin-top: 0.5rem;
+}
+
+.project-detail h3 {
+  margin-top: 2rem;
+}
+
+.project-detail a {
+  display: inline-block;
+  margin-top: 1.5rem;
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-detail a:hover {
+  text-decoration: underline;
+}
