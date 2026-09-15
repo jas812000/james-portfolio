@@ -68,6 +68,15 @@ function Contact() {
                     </div>
 
                     <div className="form-group">
+                        <label htmlFor="company">Company <span>(Optional)</span></label>
+                        <input
+                            type="text"
+                            id="company"
+                            name="company"
+                        />
+                    </div>
+
+                    <div className="form-group">
                         <label htmlFor="email">Email</label>
                         <input
                         type="email"

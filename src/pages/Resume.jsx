@@ -3,28 +3,34 @@ function Resume() {
     <main>
       <section className="resume-page">
         <div className="section-content">
-            <p className="section-label">Resume</p>
+          <p className="section-label">Resume</p>
 
-            <h1>Software Engineer</h1>
+          <h1>Software Engineer</h1>
 
-            <p>
-            Software engineer with hands-on experience developing Java, Python,
-            and .NET applications with relational databases, automated testing,
-            and CI/CD workflows. Experienced in object-oriented design, software
-            quality, secure development, collaborative code review, and test
-            automation, with a focus on building reliable and maintainable
-            software.
-            </p>
+          <p>
+            Software engineer with hands-on experience building Java, C#/.NET,
+            and Python applications backed by relational databases. Experienced
+            in backend and full-stack development, object-oriented design,
+            automated testing, secure development, and CI/CD workflows. Focused
+            on building reliable, maintainable software through sound engineering
+            practices, thoughtful application design, and continuous improvement.
+            Interested in contributing to backend and enterprise application
+            development while continuing to grow as a software engineer.
+          </p>
 
-            <div className="resume-actions">
-                <a href="/Stevens_Resume.pdf" target="_blank" rel="noopener noreferrer">
-                    View Resume
-                </a>
+          <div className="resume-actions">
+            <a
+              href="/James_Stevens_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Resume
+            </a>
 
-                <a href="/Stevens_Resume.pdf" download>
-                    Download PDF
-                </a>
-            </div>
+            <a href="/James_Stevens_Resume.pdf" download>
+              Download PDF
+            </a>
+          </div>
         </div>
       </section>
 
@@ -40,8 +46,8 @@ function Resume() {
               University of Maryland Global Campus · May 2024 – March 2026
             </p>
             <p>
-              Java development · JUnit testing · Automated software quality ·
-              Security analysis · GitHub Actions · CI/CD · Oracle SQL
+              Java development · JUnit testing · Software quality and security ·
+              GitHub Actions · CI/CD · Oracle SQL · Relational database design
             </p>
           </div>
 
@@ -51,8 +57,27 @@ function Resume() {
               University of Maryland Global Campus · May 2022 – December 2023
             </p>
             <p>
-              Python · Flask · Application architecture · Authentication ·
-              Validation · Testing · Team integration
+              Java integration and testing · Python · Flask · Flask Blueprints ·
+              Authentication · Validation · Team development
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="resume-project">
+        <div className="section-content">
+          <p className="section-label">Selected Project</p>
+
+          <div className="resume-entry">
+            <h2>Paws & Reservations</h2>
+            <p>
+              C# · ASP.NET MVC 5 · .NET Framework · Entity Framework 6 · SQL Server ·
+              ASP.NET Identity
+            </p>
+            <p>
+              Full-stack pet boarding management application with customer and pet
+              management, boarding workflows, invoicing, payments, reporting,
+              authentication, and role-based authorization.
             </p>
           </div>
         </div>
@@ -60,29 +85,36 @@ function Resume() {
 
       <section className="resume-background">
         <div className="section-content">
-            <p className="section-label">Additional Professional Experience</p>
+          <p className="section-label">Additional Professional Experience</p>
 
-            <div className="resume-entry">
-                <h2>United States Army</h2>
-                <h3>Sergeant First Class (SFC)</h3>
-                <p>February 2001 – July 2012</p>
-            </div>
+          <div className="resume-entry">
+            <h2>United States Army</h2>
+            <h3>Sergeant First Class (SFC)</h3>
+            <p>February 2001 – July 2012</p>
+            <p>
+              Technical leadership · Operations · Quality assurance · Training ·
+              Regulatory compliance
+            </p>
+          </div>
 
-            <div className="resume-entry">
-                <h2>BioLife Plasma Services</h2>
-                <h3>Medical Support Specialist</h3>
-                <p>June 2023 – June 2024</p>
-            </div>
+          <div className="resume-entry">
+            <h2>BioLife Plasma Services</h2>
+            <h3>Medical Support Specialist</h3>
+            <p>June 2023 – June 2024</p>
+            <p>
+              Incident reporting · Regulatory compliance · Case review ·
+              Risk mitigation · Cross-functional collaboration
+            </p>
+          </div>
 
-            <div className="resume-entry">
-                <h2>Healthcare Experience</h2>
-                <h3>Registered Nurse</h3>
-                <p>2012 – 2022</p>
-                <p>
-                    Emergency, acute-care, cardiac/cath-lab, and travel-nursing experience
-                    across multiple healthcare systems in Texas.
-                </p>
-            </div>
+          <div className="resume-entry">
+            <h2>Healthcare Experience</h2>
+            <h3>Registered Nurse</h3>
+            <p>2012 – 2022</p>
+            <p>
+              Emergency · Trauma · Acute care · Cardiac/cath lab · Travel nursing
+            </p>
+          </div>
         </div>
       </section>
 
