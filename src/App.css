@@ -156,16 +156,23 @@
 }
 
 .skills-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem 4rem;
-  margin: 2rem 0;
+  gap: 1.5rem;
 }
 
 .skill-group {
-  padding: 1.5rem;
-  border: 1px solid #e5e7eb;
-  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  padding: 2rem;
+}
+
+.skill-group h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 .skill-group h3 {
@@ -175,7 +182,18 @@
 
 .skill-group p {
   margin: 0;
-  line-height: 1.6;
+  line-height: 1.7;
+}
+
+.currently-developing {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 2rem 6rem;
+}
+
+.currently-developing .section-content {
+  max-width: none;
+  padding: 0;
 }
 
 .contact-cta .section-content {
@@ -249,4 +267,10 @@
 
 .project-detail a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
 }
