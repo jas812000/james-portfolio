@@ -12,7 +12,7 @@ function App() {
     <>
       <header className="site-header">
         <nav className="navbar">
-          <a href="/" className="brand">James Stevens</a>
+          <NavLink to="/" className="brand">James Stevens</NavLink>
           <div className="nav-links">
             <NavLink to="/">Home</NavLink>
             <NavLink to="/about">About</NavLink>
