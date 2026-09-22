@@ -75,6 +75,8 @@ function Contact() {
                 throw new Error(data.message || "Unable to send your message.")
             }
 
+            setFormData(initialFormData)
+
             setStatus({
                 type: "success",
                 message: "Your message was sent successfully.",
