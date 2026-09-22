@@ -2,7 +2,7 @@ import { EmailMessage } from "cloudflare:email"
 import { createMimeMessage } from "mimetext"
 
 const CONTACT_EMAIL = "jas812000@gmail.com"
-const FROM_EMAIL = "contact@james-stevens.dev"
+const FROM_EMAIL = "james@james-stevens.dev"
 
 export default {
     async fetch(request, env) {

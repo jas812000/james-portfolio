@@ -124,8 +124,8 @@ function Contact() {
                             <div className="contact-detail">
                                 <h3>Email</h3>
                                 <p>
-                                    <a href="mailto:jas812000@gmail.com">
-                                        jas812000@gmail.com
+                                    <a href="mailto:james@james-stevens.dev">
+                                        james@james-stevens.dev
                                     </a>
                                 </p>
                             </div>
