@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 const initialFormData = {
     name: "",
@@ -16,6 +16,31 @@ function Contact() {
         message: "",
     })
     const [isSubmitting, setIsSubmitting] = useState(false)
+
+    useEffect(() => {
+        if (window.location.search) {
+            window.history.replaceState(
+                {},
+                "",
+                `${window.location.pathname}${window.location.hash}`
+            )
+        }
+    }, [])
+
+    useEffect(() => {
+        if (status.type !== "success") {
+            return undefined
+        }
+
+        const timer = window.setTimeout(() => {
+            setStatus({
+                type: "",
+                message: "",
+            })
+        }, 5000)
+
+        return () => window.clearTimeout(timer)
+    }, [status.type])
 
     function handleChange(event) {
         const { name, value } = event.target
@@ -49,8 +74,6 @@ function Contact() {
             if (!response.ok) {
                 throw new Error(data.message || "Unable to send your message.")
             }
-
-            setFormData(initialFormData)
 
             setStatus({
                 type: "success",
