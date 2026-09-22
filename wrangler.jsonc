@@ -1,9 +1,17 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "james-portfolio",
+  "main": "./worker/index.js",
   "compatibility_date": "2026-09-21",
   "assets": {
     "directory": "./dist",
-    "not_found_handling": "single-page-application"
-  }
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  "send_email": [
+    {
+      "name": "EMAIL",
+      "destination_address": "jas812000@gmail.com"
+    }
+  ]
 }
