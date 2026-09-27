@@ -1,7 +1,35 @@
+import ProjectGallery from "../components/ProjectGallery"
+
 const projects = [
   {
     label: "Primary Java Featured Project",
     title: "Accounting Calculators",
+    images: [
+      {
+        src: "/images/projects/accounting-calculators/welcome-screen.png",
+        alt: "Accounting Calculators main navigation screen",
+        title: "Main Menu",
+        description: "Central navigation providing access to all three calculators.",
+      },
+      {
+        src: "/images/projects/accounting-calculators/payroll-calculator.png",
+        alt: "Payroll Calculator displaying gross pay, deductions, and net pay",
+        title: "Payroll Calculator",
+        description: "Calculates gross pay, federal withholding, payroll taxes, deductions, and net pay.",
+      },
+      {
+        src: "/images/projects/accounting-calculators/tax-calculator.png",
+        alt: "Federal Income Tax Calculator displaying tax calculation results",
+        title: "Federal Income Tax Calculator",
+        description: "Calculates annual federal income tax using the selected tax year, filing status, and taxable income.",
+      },
+      {
+        src: "/images/projects/accounting-calculators/expenses-calculator.png",
+        alt: "Expenses Calculator displaying categorized expenses and totals",
+        title: "Expenses Calculator",
+        description: "Tracks categorized expenses, optional due dates, and automatically updated totals.",
+      },
+    ],
     description:
       "A JavaFX desktop application providing payroll, tax, and expense calculators. The project separates calculation logic from the user interface and emphasizes reusable components, input validation, and object-oriented design.",
     capabilities:
@@ -95,6 +123,13 @@ function Projects() {
               <h2>{project.title}</h2>
 
               <p>{project.description}</p>
+
+              {project.images && (
+                <ProjectGallery
+                  images={project.images}
+                  projectTitle={project.title}
+                />
+              )}
 
               <h3>Key Capabilities</h3>
               <p>{project.capabilities}</p>

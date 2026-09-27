@@ -50,6 +50,21 @@ function Home() {
 
               <h3>Accounting Calculators</h3>
 
+              <a
+                className="project-image-link"
+                href="/images/projects/accounting-calculators/payroll-calculator.png"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View full-size Payroll Calculator screenshot"
+              >
+                <img
+                  className="project-card-image"
+                  src="/images/projects/accounting-calculators/payroll-calculator.png"
+                  alt="Payroll Calculator showing gross pay, deductions, and net pay"
+                  loading="lazy"
+                />
+              </a>
+
               <p>
                 A JavaFX desktop application providing payroll, tax, and expense
                 calculators with modular business logic, validated inputs, and
