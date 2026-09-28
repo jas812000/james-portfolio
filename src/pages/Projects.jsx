@@ -149,12 +149,50 @@ const projects = [
   {
     label: "Java Backend Supporting Project",
     title: "Reservation Management System",
+    images: [
+      {
+        src: "/images/projects/reservation-management/main-menu.png",
+        alt: "Reservation Management System main menu",
+        title: "Main Menu",
+        description: "Access customer account, reservation, lookup, and reservation lifecycle operations.",
+      },
+      {
+        src: "/images/projects/reservation-management/create-account.png",
+        alt: "Reservation Management System customer account creation",
+        title: "Create Account",
+        description: "Create a customer account with normalized name, address, phone, and email information.",
+      },
+      {
+        src: "/images/projects/reservation-management/find-account.png",
+        alt: "Reservation Management System existing account view",
+        title: "View Existing Account",
+        description: "Retrieve and review an existing customer's account and contact information.",
+      },
+      {
+        src: "/images/projects/reservation-management/create-reservation.png",
+        alt: "Reservation Management System cabin reservation creation",
+        title: "Create Reservation",
+        description: "Create a lodging reservation associated with an existing customer account.",
+      },
+      {
+        src: "/images/projects/reservation-management/reservation-details.png",
+        alt: "Reservation Management System reservation details",
+        title: "Reservation Details",
+        description: "Review customer, lodging, address, date, pricing, and reservation status information.",
+      },
+      {
+        src: "/images/projects/reservation-management/reservation-lifecycle.png",
+        alt: "Reservation Management System completed reservation",
+        title: "Reservation Lifecycle",
+        description: "Review a completed reservation after progressing it through the controlled reservation lifecycle.",
+      },
+    ],
     description:
-      "A modular Java backend application for managing customers, lodging, and reservations. The project demonstrates object-oriented design, business rules, persistence, custom exceptions, and automated testing.",
+        "A modular Java backend application for managing customer accounts and lodging reservations. The project demonstrates object-oriented design, business rules, data normalization, file persistence, custom exceptions, controlled reservation lifecycles, and automated testing.",
     capabilities:
-      "Customer management · Lodging management · Reservation workflows · Business-rule validation · File persistence · Custom exception handling · Automated testing",
+        "Customer account management · Reservation workflows · Name and address normalization · Business-rule validation · Reservation lifecycle management · File persistence · Custom exception handling · Automated testing",
     technology:
-      "Java · Maven · Object-Oriented Design · File Persistence · Automated Testing",
+        "Java · Maven · Object-Oriented Design · File Persistence · JUnit 5",
     url: "https://github.com/jas812000/reservation-management-system",
   },
   {

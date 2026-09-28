@@ -153,16 +153,31 @@ function Home() {
 
               <h3>Reservation Management System</h3>
 
+              <a
+                  className="project-image-link"
+                  href="/images/projects/reservation-management/reservation-details.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View full-size Reservation Management System screenshot"
+              >
+                <img
+                    className="project-card-image"
+                    src="/images/projects/reservation-management/reservation-details.png"
+                    alt="Reservation Management System reservation details"
+                    loading="lazy"
+                />
+              </a>
+
               <p>
-                A modular Java backend application for managing customers,
-                lodging, and reservations. The project demonstrates
-                object-oriented design, business rules, persistence,
-                custom exceptions, and automated testing.
+                A modular Java backend application for managing customer accounts
+                and lodging reservations. The project demonstrates object-oriented
+                design, business rules, data normalization, file persistence,
+                custom exceptions, controlled reservation lifecycles, and
+                automated testing.
               </p>
 
               <p>
-                Java · Maven · Object-Oriented Design · File Persistence ·
-                Automated Testing
+                Java · Maven · Object-Oriented Design · File Persistence · JUnit 5
               </p>
 
               <a
@@ -179,11 +194,20 @@ function Home() {
 
               <h3>Home Services Quote Calculator</h3>
 
-              <img
-                src="/images/projects/home-services/house-cleaning.png"
-                alt="Home Services Quote Calculator house-cleaning estimate"
-                className="project-image"
-              />
+              <a
+                  className="project-image-link"
+                  href="/images/projects/home-services/house-cleaning.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View full-size Home Services Quote Calculator screenshot"
+              >
+                <img
+                    className="project-card-image"
+                    src="/images/projects/home-services/house-cleaning.png"
+                    alt="Home Services Quote Calculator house-cleaning estimate"
+                    loading="lazy"
+                />
+              </a>
 
               <p>
                 A Python command-line application for calculating home-service
