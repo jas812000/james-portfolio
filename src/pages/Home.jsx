@@ -149,6 +149,32 @@ function Home() {
             </article>
 
             <article className="project-card">
+              <p className="section-label">Java Backend Supporting Project</p>
+
+              <h3>Reservation Management System</h3>
+
+              <p>
+                A modular Java backend application for managing customers,
+                lodging, and reservations. The project demonstrates
+                object-oriented design, business rules, persistence,
+                custom exceptions, and automated testing.
+              </p>
+
+              <p>
+                Java · Maven · Object-Oriented Design · File Persistence ·
+                Automated Testing
+              </p>
+
+              <a
+                href="https://github.com/jas812000/reservation-management-system"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View on GitHub →
+              </a>
+            </article>
+
+            <article className="project-card">
               <p className="section-label">Python Supporting Project</p>
 
               <h3>Home Services Quote Calculator</h3>
@@ -173,6 +199,7 @@ function Home() {
             </article>
             <article className="project-card">
               <p className="section-label">Frontend Supporting Project</p>
+
               <h3>Learn English Together</h3>
 
               <a
@@ -197,13 +224,30 @@ function Home() {
 
               <p>HTML · CSS · JavaScript</p>
 
-              <a
-                href="https://jas812000.github.io/learn-english-together/"
-                target="_blank"
-                rel="noopener noreferrer"
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  gap: "1rem",
+                }}
               >
-                Live Demo →
-              </a>
+                <a
+                  href="https://github.com/jas812000/learn-english-together"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View on GitHub →
+                </a>
+
+                <a
+                  href="https://jas812000.github.io/learn-english-together/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Demo →
+                </a>
+              </div>
             </article>
           </div>
         </div>
