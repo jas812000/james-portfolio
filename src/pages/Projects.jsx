@@ -138,12 +138,74 @@ const projects = [
   {
     label: "Full-Stack Flagship Project",
     title: "Paws & Reservations",
+    images: [
+      {
+        src: "/images/projects/paws-reservations/home.png",
+        alt: "Paws & Reservations public home page",
+        title: "Public Home Page",
+        description: "Public-facing home page with business branding and navigation.",
+      },
+      {
+        src: "/images/projects/paws-reservations/admin-dashboard.png",
+        alt: "Paws & Reservations admin dashboard",
+        title: "Admin Dashboard",
+        description: "Management dashboard providing access to operational, administrative, and reporting workflows.",
+      },
+      {
+        src: "/images/projects/paws-reservations/customer-profile.png",
+        alt: "Paws & Reservations customer profile",
+        title: "Customer Profile",
+        description: "Review customer details, associated pets, and emergency contact information.",
+      },
+      {
+        src: "/images/projects/paws-reservations/pet-profile-1.png",
+        alt: "Paws & Reservations pet profile",
+        title: "Pet Profile",
+        description: "Review pet information, care details, and diet information.",
+      },
+      {
+        src: "/images/projects/paws-reservations/active-boardings.png",
+        alt: "Paws & Reservations active boardings",
+        title: "Active Boardings",
+        description: "View pets currently checked in and their active boarding records.",
+      },
+      {
+        src: "/images/projects/paws-reservations/boarding-details.png",
+        alt: "Paws & Reservations boarding details",
+        title: "Boarding Details",
+        description: "Review reservation dates, status, boarding information, and associated pet details.",
+      },
+      {
+        src: "/images/projects/paws-reservations/invoice-details-1.png",
+        alt: "Paws & Reservations invoice details",
+        title: "Invoice Details",
+        description: "Review invoice items, totals, payment information, and account balance.",
+      },
+      {
+        src: "/images/projects/paws-reservations/payment-details.png",
+        alt: "Paws & Reservations payment details",
+        title: "Payment Details",
+        description: "Review recorded payment information and transaction details.",
+      },
+      {
+        src: "/images/projects/paws-reservations/reports-dashboard.png",
+        alt: "Paws & Reservations reports dashboard",
+        title: "Reports Dashboard",
+        description: "Access operational, customer, boarding, invoice, payment, and compliance reports.",
+      },
+      {
+        src: "/images/projects/paws-reservations/revenue-report-2.png",
+        alt: "Paws & Reservations revenue report",
+        title: "Revenue Report",
+        description: "Review revenue, payments, balances, invoice status, and financial summary data.",
+      },
+    ],
     description:
-      "A full-stack pet boarding management application designed to support the day-to-day operations of a boarding business. The system manages customers, pets, employees, boarding reservations, services, invoicing, payments, reporting, and account security.",
+        "A full-stack pet boarding management application designed to support the day-to-day operations of a boarding business. The system manages customers, pets, employees, boarding reservations, services, invoicing, payments, reporting, and account security.",
     capabilities:
-      "Customer and pet management · Boarding operations · Employee and role-based workflows · Invoicing and payment processing · Operational and financial reporting · PDF report exports · Authentication and account recovery · Email integration",
+        "Customer and pet management · Boarding operations · Employee and role-based workflows · Invoicing and payment processing · Operational and financial reporting · PDF report exports · Authentication and account recovery · Email integration",
     technology:
-      "C# · ASP.NET MVC 5 · .NET Framework · Entity Framework 6 · SQL Server · ASP.NET Identity",
+        "C# · ASP.NET MVC 5 · .NET Framework · Entity Framework 6 · SQL Server · ASP.NET Identity",
     url: "https://github.com/jas812000/JamesPetBoarding",
   },
   {

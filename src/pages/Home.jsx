@@ -129,6 +129,21 @@ function Home() {
 
               <h3>Paws & Reservations</h3>
 
+              <a
+                  className="project-image-link"
+                  href="/images/projects/paws-reservations/admin-dashboard.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View full-size Paws & Reservations admin dashboard screenshot"
+              >
+                <img
+                    className="project-card-image"
+                    src="/images/projects/paws-reservations/admin-dashboard.png"
+                    alt="Paws & Reservations admin dashboard"
+                    loading="lazy"
+                />
+              </a>
+
               <p>
                 A full-stack pet boarding management application supporting
                 customers, pets, employees, boarding operations, invoicing,
