@@ -179,6 +179,12 @@ function Home() {
 
               <h3>Home Services Quote Calculator</h3>
 
+              <img
+                src="/images/projects/home-services/house-cleaning.png"
+                alt="Home Services Quote Calculator house-cleaning estimate"
+                className="project-image"
+              />
+
               <p>
                 A Python command-line application for calculating home-service
                 quotes using structured pricing rules, input validation, modular

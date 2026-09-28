@@ -160,6 +160,38 @@ const projects = [
   {
     label: "Python Supporting Project",
     title: "Home Services Quote Calculator",
+    images: [
+      {
+        src: "/images/projects/home-services/main-menu.png",
+        alt: "Home Services Quote Calculator main menu",
+        title: "Main Menu",
+        description: "Review available house-cleaning and yard services, pricing, and service options.",
+      },
+      {
+        src: "/images/projects/home-services/house-cleaning.png",
+        alt: "Home Services Quote Calculator house-cleaning estimate",
+        title: "House-Cleaning Quote",
+        description: "Generate an itemized house-cleaning estimate with service charges, surcharges, and tax.",
+      },
+      {
+        src: "/images/projects/home-services/yard-service.png",
+        alt: "Home Services Quote Calculator yard-service estimate",
+        title: "Yard-Service Quote",
+        description: "Generate an itemized yard-service estimate with labor, property-size charges, discounts, and tax.",
+      },
+      {
+        src: "/images/projects/home-services/combined-service.png",
+        alt: "Home Services Quote Calculator combined house and yard estimate",
+        title: "Combined Quote",
+        description: "Generate house-cleaning and yard-service estimates together with a combined total.",
+      },
+      {
+        src: "/images/projects/home-services/input-validation.png",
+        alt: "Home Services Quote Calculator input validation",
+        title: "Input Validation",
+        description: "Validate menu selections, property sizes, time formats, and service time ranges.",
+      },
+    ],
     description:
       "A Python command-line application that calculates home-service quotes using structured pricing rules, validation, modular application design, and automated tests.",
     capabilities:
