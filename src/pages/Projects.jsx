@@ -171,6 +171,45 @@ const projects = [
   {
     label: "Frontend Supporting Project",
     title: "Learn English Together",
+    images: [
+      {
+        src: "/images/projects/learn-english-together/home.png",
+        alt: "Bilingual English Practice Zone homepage",
+        title: "Homepage",
+        description: "Thai and English navigation for the available vocabulary categories.",
+      },
+      {
+        src: "/images/projects/learn-english-together/numbers.png",
+        alt: "Numbers vocabulary category navigation",
+        title: "Numbers",
+        description: "Choose from the available number vocabulary lessons.",
+      },
+      {
+        src: "/images/projects/learn-english-together/single-digits.png",
+        alt: "Single-digit vocabulary cards with pronunciation buttons",
+        title: "Single Digits",
+        description: "Practice numbers using images, English labels, and pronunciation audio.",
+      },
+      {
+        src: "/images/projects/learn-english-together/house.png",
+        alt: "Bilingual House vocabulary category navigation",
+        title: "House",
+        description: "Explore household vocabulary organized by room and area.",
+      },
+      {
+        src: "/images/projects/learn-english-together/kitchen.png",
+        alt: "Kitchen vocabulary topic navigation",
+        title: "Kitchen",
+        description: "Navigate kitchen vocabulary topics in Thai and English.",
+      },
+      {
+        src: "/images/projects/learn-english-together/food-preparation.png",
+        alt: "Food preparation vocabulary with photographs and pronunciation buttons",
+        title: "Food Preparation",
+        description: "Learn food preparation vocabulary through photographs and audio.",
+      },
+    ],
+    demoUrl: "https://jas812000.github.io/learn-english-together/",
     description:
       "A browser-based learning site designed to help Thai learners build English vocabulary through organized lessons, visual material, and audio-supported content.",
     capabilities:
@@ -222,6 +261,18 @@ function Projects() {
 
               <h3>Technology</h3>
               <p>{project.technology}</p>
+
+              {project.demoUrl && (
+                <p>
+                  <a
+                    href={project.demoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Open Live Demo →
+                  </a>
+                </p>
+              )}
 
               <a
                 href={project.url}

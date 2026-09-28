@@ -171,6 +171,40 @@ function Home() {
                 View on GitHub →
               </a>
             </article>
+            <article className="project-card">
+              <p className="section-label">Frontend Supporting Project</p>
+              <h3>Learn English Together</h3>
+
+              <a
+                className="project-image-link"
+                href="/images/projects/learn-english-together/food-preparation.png"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View full-size English vocabulary screenshot"
+              >
+                <img
+                  className="project-card-image"
+                  src="/images/projects/learn-english-together/food-preparation.png"
+                  alt="Food preparation vocabulary cards with photographs and pronunciation controls"
+                  loading="lazy"
+                />
+              </a>
+
+              <p>
+                A bilingual vocabulary-learning website featuring
+                image-based lessons and English pronunciation audio.
+              </p>
+
+              <p>HTML · CSS · JavaScript</p>
+
+              <a
+                href="https://jas812000.github.io/learn-english-together/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live Demo →
+              </a>
+            </article>
           </div>
         </div>
       </section>
