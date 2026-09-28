@@ -133,13 +133,6 @@ function Contact() {
                             </div>
 
                             <div className="contact-detail">
-                                <h3>Phone</h3>
-                                <p>
-                                    <a href="tel:+14107368849">(410) 736-8849</a>
-                                </p>
-                            </div>
-
-                            <div className="contact-detail">
                                 <h3>GitHub</h3>
                                 <p>
                                     <a
