@@ -279,6 +279,20 @@
   line-height: 1.7;
 }
 
+/* Featured Project Images */
+
+.project-card-image {
+  display: block;
+  width: 100%;
+  height: 220px;
+  margin: 1.25rem 0;
+
+  object-fit: contain;
+  background: var(--surface-subtle);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
 /* Skills */
 
 .skills-grid {
@@ -397,6 +411,77 @@
 .project-detail a {
   display: inline-block;
   margin-top: 1.5rem;
+}
+
+/* Project Screenshot Gallery */
+
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.project-gallery-item {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+}
+
+.project-gallery-item h4 {
+  margin: 0;
+  padding: 1rem;
+
+  background: var(--surface);
+  color: var(--heading);
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.project-gallery-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 390px;
+  padding: 0.75rem;
+
+  background: #edf2f7;
+}
+
+.project-gallery-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.project-gallery-item figcaption {
+  flex: 1;
+  padding: 1rem;
+
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .project-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .project-gallery-image {
+    height: 300px;
+  }
 }
 
 /* Resume */
@@ -695,5 +780,123 @@
 
   .resume-entry {
     padding-left: 1rem;
+  }
+}
+
+/* Interactive Screenshot Gallery */
+
+button.project-gallery-image {
+  width: 100%;
+  border: 0;
+  cursor: zoom-in;
+}
+
+.project-gallery-image:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: -3px;
+}
+
+/* Screenshot Lightbox */
+
+.lightbox-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: rgb(15 23 42 / 0.88);
+}
+
+.lightbox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: min(1400px, 100%);
+  max-height: 96vh;
+  padding: 1.5rem;
+  overflow-y: auto;
+  background: white;
+  border-radius: var(--radius-md);
+}
+
+.lightbox h2 {
+  margin: 0;
+  padding-right: 2.5rem;
+  color: var(--heading);
+  font-size: 1.35rem;
+  text-align: center;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 0.65rem;
+  right: 0.85rem;
+  border: 0;
+  background: transparent;
+  color: var(--heading);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.lightbox-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 0;
+}
+
+.lightbox-image-container img {
+  display: block;
+  max-width: 100%;
+  max-height: 78vh;
+  object-fit: contain;
+}
+
+.lightbox p {
+  margin: 0;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.lightbox-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+}
+
+.lightbox-navigation button {
+  padding: 0.65rem 1rem;
+  background: var(--accent);
+  border: 0;
+  border-radius: var(--radius-sm);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.lightbox button:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+@media (max-width: 640px) {
+  .lightbox-backdrop {
+    padding: 0.5rem;
+  }
+
+  .lightbox {
+    padding: 1rem;
+  }
+
+  .lightbox-navigation button {
+    padding: 0.6rem;
+    font-size: 0.85rem;
   }
 }

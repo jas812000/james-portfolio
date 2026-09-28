@@ -50,6 +50,21 @@ function Home() {
 
               <h3>Accounting Calculators</h3>
 
+              <a
+                className="project-image-link"
+                href="/images/projects/accounting-calculators/payroll-calculator.png"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View full-size Payroll Calculator screenshot"
+              >
+                <img
+                  className="project-card-image"
+                  src="/images/projects/accounting-calculators/payroll-calculator.png"
+                  alt="Payroll Calculator showing gross pay, deductions, and net pay"
+                  loading="lazy"
+                />
+              </a>
+
               <p>
                 A JavaFX desktop application providing payroll, tax, and expense
                 calculators with modular business logic, validated inputs, and
@@ -73,6 +88,22 @@ function Home() {
               <p className="section-label">Featured Java Project</p>
 
               <h3>Art Inventory & Transaction Management System</h3>
+
+
+              <a
+                className="project-image-link"
+                href="/images/projects/art-inventory/dashboard.png"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View full-size Art Inventory dashboard screenshot"
+              >
+                <img
+                  className="project-card-image"
+                  src="/images/projects/art-inventory/dashboard.png"
+                  alt="Art Inventory and Transaction Management System dashboard"
+                  loading="lazy"
+                />
+              </a>
 
               <p>
                 A Java application focused on domain modeling, inventory and
@@ -98,6 +129,21 @@ function Home() {
 
               <h3>Paws & Reservations</h3>
 
+              <a
+                  className="project-image-link"
+                  href="/images/projects/paws-reservations/admin-dashboard.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View full-size Paws & Reservations admin dashboard screenshot"
+              >
+                <img
+                    className="project-card-image"
+                    src="/images/projects/paws-reservations/admin-dashboard.png"
+                    alt="Paws & Reservations admin dashboard"
+                    loading="lazy"
+                />
+              </a>
+
               <p>
                 A full-stack pet boarding management application supporting
                 customers, pets, employees, boarding operations, invoicing,
@@ -118,9 +164,65 @@ function Home() {
             </article>
 
             <article className="project-card">
+              <p className="section-label">Java Backend Supporting Project</p>
+
+              <h3>Reservation Management System</h3>
+
+              <a
+                  className="project-image-link"
+                  href="/images/projects/reservation-management/reservation-details.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View full-size Reservation Management System screenshot"
+              >
+                <img
+                    className="project-card-image"
+                    src="/images/projects/reservation-management/reservation-details.png"
+                    alt="Reservation Management System reservation details"
+                    loading="lazy"
+                />
+              </a>
+
+              <p>
+                A modular Java backend application for managing customer accounts
+                and lodging reservations. The project demonstrates object-oriented
+                design, business rules, data normalization, file persistence,
+                custom exceptions, controlled reservation lifecycles, and
+                automated testing.
+              </p>
+
+              <p>
+                Java · Maven · Object-Oriented Design · File Persistence · JUnit 5
+              </p>
+
+              <a
+                href="https://github.com/jas812000/reservation-management-system"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View on GitHub →
+              </a>
+            </article>
+
+            <article className="project-card">
               <p className="section-label">Python Supporting Project</p>
 
               <h3>Home Services Quote Calculator</h3>
+
+              <a
+                  className="project-image-link"
+                  href="/images/projects/home-services/house-cleaning.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View full-size Home Services Quote Calculator screenshot"
+              >
+                <img
+                    className="project-card-image"
+                    src="/images/projects/home-services/house-cleaning.png"
+                    alt="Home Services Quote Calculator house-cleaning estimate"
+                    loading="lazy"
+                />
+              </a>
 
               <p>
                 A Python command-line application for calculating home-service
@@ -139,6 +241,58 @@ function Home() {
               >
                 View on GitHub →
               </a>
+            </article>
+            <article className="project-card">
+              <p className="section-label">Frontend Supporting Project</p>
+
+              <h3>Learn English Together</h3>
+
+              <a
+                className="project-image-link"
+                href="/images/projects/learn-english-together/food-preparation.png"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View full-size English vocabulary screenshot"
+              >
+                <img
+                  className="project-card-image"
+                  src="/images/projects/learn-english-together/food-preparation.png"
+                  alt="Food preparation vocabulary cards with photographs and pronunciation controls"
+                  loading="lazy"
+                />
+              </a>
+
+              <p>
+                A bilingual vocabulary-learning website featuring
+                image-based lessons and English pronunciation audio.
+              </p>
+
+              <p>HTML · CSS · JavaScript</p>
+
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  gap: "1rem",
+                }}
+              >
+                <a
+                  href="https://github.com/jas812000/learn-english-together"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View on GitHub →
+                </a>
+
+                <a
+                  href="https://jas812000.github.io/learn-english-together/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Demo →
+                </a>
+              </div>
             </article>
           </div>
         </div>
