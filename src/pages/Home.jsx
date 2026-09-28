@@ -89,6 +89,22 @@ function Home() {
 
               <h3>Art Inventory & Transaction Management System</h3>
 
+
+              <a
+                className="project-image-link"
+                href="/images/projects/art-inventory/dashboard.png"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View full-size Art Inventory dashboard screenshot"
+              >
+                <img
+                  className="project-card-image"
+                  src="/images/projects/art-inventory/dashboard.png"
+                  alt="Art Inventory and Transaction Management System dashboard"
+                  loading="lazy"
+                />
+              </a>
+
               <p>
                 A Java application focused on domain modeling, inventory and
                 transaction management, persistence, validation, automated

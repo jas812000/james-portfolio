@@ -41,6 +41,92 @@ const projects = [
   {
     label: "Featured Java Project",
     title: "Art Inventory & Transaction Management System",
+    images: [
+      {
+        src: "/images/projects/art-inventory/dashboard.png",
+        alt: "Dashboard screenshot from the Art Inventory and Transaction Management System",
+        title: "Dashboard",
+        description: "Main navigation for artwork inventory, customers, and orders.",
+      },
+      {
+        src: "/images/projects/art-inventory/inventory.png",
+        alt: "Artwork Inventory screenshot from the Art Inventory and Transaction Management System",
+        title: "Artwork Inventory",
+        description: "View available artwork and inventory information.",
+      },
+      {
+        src: "/images/projects/art-inventory/add-art.png",
+        alt: "Add Artwork screenshot from the Art Inventory and Transaction Management System",
+        title: "Add Artwork",
+        description: "Add new artwork to inventory.",
+      },
+      {
+        src: "/images/projects/art-inventory/remove-artwork.png",
+        alt: "Remove Artwork screenshot from the Art Inventory and Transaction Management System",
+        title: "Remove Artwork",
+        description: "Remove artwork from inventory.",
+      },
+      {
+        src: "/images/projects/art-inventory/manage-customer-initial.png",
+        alt: "Customer Management screenshot from the Art Inventory and Transaction Management System",
+        title: "Customer Management",
+        description: "Retrieve and manage customer information.",
+      },
+      {
+        src: "/images/projects/art-inventory/manage-customer-post.png",
+        alt: "Updated Customer screenshot from the Art Inventory and Transaction Management System",
+        title: "Updated Customer",
+        description: "View updated customer information.",
+      },
+      {
+        src: "/images/projects/art-inventory/create-order.png",
+        alt: "Create Order screenshot from the Art Inventory and Transaction Management System",
+        title: "Create Order",
+        description: "Create an order for a customer.",
+      },
+      {
+        src: "/images/projects/art-inventory/retrieve-order.png",
+        alt: "Retrieve Order screenshot from the Art Inventory and Transaction Management System",
+        title: "Retrieve Order",
+        description: "Search for and retrieve existing orders.",
+      },
+      {
+        src: "/images/projects/art-inventory/all-orders.png",
+        alt: "All Orders screenshot from the Art Inventory and Transaction Management System",
+        title: "All Orders",
+        description: "Browse and review recorded orders.",
+      },
+      {
+        src: "/images/projects/art-inventory/updated-order.png",
+        alt: "Updated Order screenshot from the Art Inventory and Transaction Management System",
+        title: "Updated Order",
+        description: "Review updated order information.",
+      },
+      {
+        src: "/images/projects/art-inventory/complete-order.png",
+        alt: "Complete Order screenshot from the Art Inventory and Transaction Management System",
+        title: "Complete Order",
+        description: "Process an order through completion.",
+      },
+      {
+        src: "/images/projects/art-inventory/completed-order.png",
+        alt: "Completed Order screenshot from the Art Inventory and Transaction Management System",
+        title: "Completed Order",
+        description: "Review a completed transaction.",
+      },
+      {
+        src: "/images/projects/art-inventory/cancel-order.png",
+        alt: "Cancel Order screenshot from the Art Inventory and Transaction Management System",
+        title: "Cancel Order",
+        description: "Cancel an existing order.",
+      },
+      {
+        src: "/images/projects/art-inventory/inventory-released.png",
+        alt: "Inventory Released screenshot from the Art Inventory and Transaction Management System",
+        title: "Inventory Released",
+        description: "Review inventory following order cancellation.",
+      },
+    ],
     description:
       "A Java application for managing artwork inventory and transactions with a focus on domain modeling, persistence, configuration, validation, error handling, automated testing, and maintainable application architecture.",
     capabilities:
